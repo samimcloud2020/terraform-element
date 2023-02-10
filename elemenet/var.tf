@@ -1,5 +1,5 @@
 variable "ami" {
-  type = map
+  type = map(string)
 
   default = {
     "us-east-1" = "ami-04169656fea786776"
@@ -9,11 +9,6 @@ variable "ami" {
 
 variable "instance_count" {
   default = "2"
-}
-
-variable "instance_tags" {
-  type = list
-  default = ["Terraform-1", "Terraform-2"]
 }
 
 variable "instance_type" {
