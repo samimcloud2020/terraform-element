@@ -1,6 +1,11 @@
 # terraform-element
+
+lookup <-----------retrieves a value from a map given its key.
+
 lookup(map, key, default)
 ----------------------------------------------------
+element   <---------element retrieves a single element from a list.
+
 element(list, index)
 ---------------------------------------------------
 element retrieves a single element from a list.
