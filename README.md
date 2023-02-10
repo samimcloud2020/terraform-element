@@ -1,4 +1,8 @@
 # terraform-element
+lookup(map, key, default)
+----------------------------------------------------
+element(list, index)
+---------------------------------------------------
 element retrieves a single element from a list.
 
 element(list, index)
