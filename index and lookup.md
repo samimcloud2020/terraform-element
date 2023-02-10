@@ -1,4 +1,5 @@
 index <----------finds the index for a particular element value.
+
 lookup <-----------retrieves a value from a map given its key.
   
   ------------------------------------------------------------------------------------------
