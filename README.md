@@ -1,4 +1,4 @@
-# terraform-element
+# terraform-element-lookup
 
 lookup <-----------retrieves a value from a map given its key.
 
