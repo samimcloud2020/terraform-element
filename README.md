@@ -38,6 +38,7 @@ b
 The function will select the property of an array based on the index number. In most programming languages when reaching a number that is out of the range of the array, you will receive an exception. But the element function will continue from the first item in the array. This will result in the following behavior.
 
 Index	Array
+
 0	a
 
 1	b
