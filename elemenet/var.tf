@@ -18,3 +18,7 @@ variable "instance_type" {
 variable "aws_region" {
   default = "us-east-1"
 }
+variable "instance_tags" {
+  type = list
+  default = ["Terraform-1", "Terraform-2"]
+}
