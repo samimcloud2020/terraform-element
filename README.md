@@ -18,6 +18,7 @@ If the given index is greater than the length of the list then the index is "wra
 > element(["a", "b", "c"], 3)
 
 a
+
 To get the last element from the list use length to find the size of the list (minus 1 as the list is zero-based) and then pick the last element:
 
 > element(["a", "b", "c"], length(["a", "b", "c"])-1)
